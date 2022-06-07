@@ -46,7 +46,8 @@ class FollowSerializer(serializers.ModelSerializer):
         user = self.context.get('request').user
         if user == following:
             raise serializers.ValidationError(
-                'It is impossible to follow yourself')
+                'It is impossible to follow yourself'
+            )
         return following
 
     class Meta:
