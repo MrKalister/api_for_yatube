@@ -1,6 +1,6 @@
 # API for social network Yatube
 ## Description
-Thanks to this project, your services have the ability to exchange data with youtube
+Thanks to this project, your services have the ability to exchange data with yatube
 ***
 ## Technologies
 * Python 3.9.10
